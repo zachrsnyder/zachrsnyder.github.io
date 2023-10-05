@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    font-size: 16;
+    font-weight: normal;
+}
+
+h3,h4,ul,p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.column-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.left-column{
+    flex: 6;
+    padding: 1%;
+}
+
+.right-column{
+    flex: 2;
+    padding: 1%;
+}
+
+#wrapper{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.section-container{
+    margin-top: 30px
+}
