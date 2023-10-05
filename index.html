@@ -2,25 +2,82 @@
 <html>
     <head>
         <title>Zach Snyder</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <header>
-        <h1>Zach Snyder</h1>
-        <h2>Columbia, MO    |    906-440-3780    |    zachrsnyder2004@gmail.com    |    <a href="https://www.linkedin.com/in/zachary-snyder-51764228b/">LinkedIn</a></h2>
-        <p id="description">This is my first webpage! I'm going to use it as a place to practice my web development skills as well as display information about me and my coding journey.</p>
-    </header>
-    <main>
-        <h3><b>Education</b></h3>
-        <hr>
-        <h3><b>University of Missouri</b></h3>
-        <p style="text-align:left;">
-            <span style="float:right;">
-            </span>
-        </p>
-        
-    </main>
-    <footer>
-        <div id="links">
-            <h3>Contact Information</h3>
-        </div>
-    </footer>
+    <div id="wrapper">    
+        <header>
+            <h1>Zach Snyder</h1>
+            <h2>Columbia, MO    |    906-440-3780    |    zachrsnyder2004@gmail.com    |    <a href="https://www.linkedin.com/in/zachary-snyder-51764228b/"  target="_blank">LinkedIn</a></h2>
+        </header>
+        <main>
+            <div id="education" class="section-container">
+                <h3><b>Education</b></h3>
+                <hr>
+                <div name="mizzou" class="column-container">
+                    <div class="left-column" name="miz-left">
+                        <h3><b>University of Missouri</b>--GPA:3.930</h3>
+                        <p>Bachelors of Science in Computer Science<br>
+                            Dean's High Honor List. Bright Flight Scholarship. 4.00 STEM GPA.
+                        </p>
+                    </div>
+                    <div class="right-column" name="miz-right">
+                        <h4><b>Columbia, MO</b></h4>
+                        <p>Graduation: May 2026</p>
+                    </div>
+                </div>
+                <div name="Osage" class="column-container">
+                    <div class = "left-column" name="osage-left">
+                        <h3><b>Osage High School</b>--GPA: 4.000|ACT: 33</h3>
+                        <p>8th of 140 students, 1 of 10 students on the School Board, Calculus Student of the Year</p>
+                    </div>
+                    <div class = "right-column" name="osage-right">
+                        <h4><b>Osage Beach, MO</b></h4>
+                        <p>Graduation: June 2022</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div id = "work" class="section-container">
+                <h3><b>Work Experience</b></h3>
+                <hr>
+                <div name="freedomboatclub" class="column-container">
+                    <div class="left-column" name="fbc-left">
+                        <h3><b>Freedom Boat Club</b></h3>
+                        <ul name="freedom-tasks" class="tasks-list">
+                            <li>Managed online reservation system.</li>
+                            <li>Worked with club members to help them on and off the water safely.</li>
+                            <li>Cleaned the boats and the property.</li>
+                        </ul>
+                    </div>
+                    <div class="right-column" name="fbc-right">
+                        <h4><b>Osage Beach, MO</b></h4>
+                        <p>March 2022 - August 2023</p>
+                    </div>
+                </div>
+                <div name="H.Toads Bar and Grill" class="column-container">
+                    <div class="left-column" name="ht-left">
+                        <h3><b>H.Toads Bar and Grill</b></h3>
+                        <ul name="ht-tasks" class="tasks-list">
+                            <li>Took tables' orders and delievered their food and drinks</li>
+                            <li>Managed distribution of earnings amongst restaurant workers.</li>
+                        </ul>
+                    </div>
+                    <div class="right-column" name="ht-right">
+                        <h4><b>Lake Ozark, MO</b></h4>
+                        <p>June 2023 - September 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div id="skills" class="section-container">
+                <h3><b>Skills</b></h3>
+                <hr>
+                <p><b>Programming Languages</b>     C/C++   HTML    CSS     Python      ASM</p>
+                <p><b>Technical Skills</b>      Bash    Windows     Linux</p>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
 </html>
